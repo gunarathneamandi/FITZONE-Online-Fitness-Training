@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	padding:350px;
+	background-size:cover;
+	background-image:url("loginboy.jpg");
+	background-position:center;
+	font-family:sans-serif;
+}
+.loginbox{
+	width:250px;
+	height:300px;
+	background:black;
+	color:white;
+	top:50%;
+	left:40%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:boder-box;
+	padding:50px 25px;
+}
+.user{
+	width:90px;
+	height:90px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	padding:-30px;
+	left:calc(50% -50px);
+}
+h1{
+	margin:0;
+	padding: 20px;
+	text-align:center;
+	font-size:22px;
+}
+.loginbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type = "text"],input[type ="password"]{
+	border-bottom:1px soild #fff;
+	border:no-repeat;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type ="submit"]{
+	border:none;
+	border-radius:20px;
+	background:red;
+	outline:white;
+	height:40px;
+	color:soild white;
+	font-size:18px;
+}
+.loginbox input[type ="submit"]:hover{
+	cursor:pointer;
+	background:yellow;
+	color:soild white;
+}
+.loginbox a{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:darkgray;
+}
+.loginbox a:hover{
+	color:yellow;
+}
+	
+
+/*Reference : https://www.youtube.com/watch?v=8_WNZrnHUzg*/
+	
+	

@@ -1,0 +1,78 @@
+/*styles added to form elements in the updateRecord.php page*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .body{
+    margin:0;
+    padding:0;
+  }
+
+.main-form{
+    padding:30px;
+    border: none;
+    border-radius: 7px;
+    margin-left:35%;
+    width: 400px;
+    height:auto;
+    background-color: #8fc5c470;
+    box-shadow:10px 10px 10px rgba(205, 205, 205, 0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-form input,
+select
+{
+  border:solid 2px #333;
+  width:350px;
+  height:30px;
+  border-radius: 5px;
+}
+
+
+.main-form textarea{
+    border:solid 2px #333;
+    width:350px;
+    height:90px;
+    border-radius: 5px;
+    
+}
+
+
+.main-form .btns{
+    margin-left:20%;
+}
+
+.main-form .query-btn{
+    border:none;
+    border-radius:5px ;
+    width:75px;
+    height:30px;
+    background-color:#333;
+    color:#fff;
+    margin: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2 ease-in-out;
+}
+
+.main-form .query-btn:hover{
+    transform: scale(1.1);
+}
+
+.main-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+}
+
+.word-up{
+    color: #26906b;
+    font-size: 35px;
+    font-style: italic;
+}
+

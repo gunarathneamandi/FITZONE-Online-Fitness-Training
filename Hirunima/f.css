@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+.body {
+    font-family: Arial, sans-serif;
+    
+    background-color: #ccc;
+    margin:0;
+    padding:0;
+  }
+  
+  .h1 {
+    text-align: center;
+  }
+  
+  .form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: solid black;
+    padding: 3%;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }

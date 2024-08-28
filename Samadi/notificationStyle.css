@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:boder-box;
+	font-family:'Montserrat',sans-serif;
+	font-size:15px;
+}
+body{
+	background:#000000;
+	
+}
+.notification_wrap{
+	width:500px;
+	margin:120px auto 0;
+	
+}
+.image-style
+{
+	width: 25px; 
+	height: 25px; 
+	border-radius: 5px; 
+	background:white;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.dropdown{
+	width:350px;
+	height:auto;
+	background:#fff;
+	border-radius:5px;
+	box-shadow:2px 2px 3px rgba(0,0,0,0.125);
+	margin:15px auto 0;
+	padding:15px;
+	position:relative;
+	
+}
+.notify_item{
+	display:flex;
+	align-items:center;
+	padding:10px 0;
+	border-bottom:1px soild #dbdaff;
+
+}
+.notify_item:last-child{
+	border-bottom:0px;
+}
+.notify_img{
+	margin-right:15px;
+}
+.notify_info p span{
+	color:#605dff;
+	
+}
+.notify_time{
+	color:#c5c5a6;
+	font-size:12px;
+}
+
+	
+
+	

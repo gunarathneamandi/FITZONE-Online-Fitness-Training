@@ -1,0 +1,156 @@
+/* css for the home page*/
+
+*{
+    /* astriks mark removes all the default values in the web page*/
+    margin:0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;/*we hv given three fonts. if one is
+    not working then other will work automatically*/
+}
+
+.a{
+    color:#145DA0;/*affects all the anchor tags*/
+    text-decoration: none;
+}
+
+a:hover{
+    color:crimson;
+}
+.container1{
+    
+    width:90%; /*the whole page is 100% and when give 80% it will reduce the width 
+    with spaces in sides*/
+    margin: 0 auto; /*first one (0) is top & bottom second (auto)left & right
+    auto is added for margin on left and right so the content align center*/
+    padding: 1%; /*added to all the sides;top bottom left right*/
+    /*margin is added outside the border and padding is inside the border*/
+    background-color: #36EEE0;
+
+}
+
+.container{
+    
+    width:90%; /*the whole page is 100% and when give 80% it will reduce the width 
+    with spaces in sides*/
+    margin: 0 auto; /*first one (0) is top & bottom second (auto)left & right
+    auto is added for margin on left and right so the content align center*/
+    padding: 4%; /*added to all the sides;top bottom left right*/
+    /*margin is added outside the border and padding is inside the border*/
+    
+
+}
+
+/*css for the logo in navbar*/
+
+.logo{
+    
+    width: 10%;
+
+}
+
+.logo-responsive{
+    width:100%;
+    float:left;
+}
+
+.clearfix{
+    clear: both;
+    float: none; 
+}
+
+/*Css for the nav bar sections home, about, food...*/
+.text-right{
+    text-align: right; /*get menu to the right side*/
+   
+}
+
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type:none;
+   
+
+}
+
+.menu ul li{
+    display: inline; /* display menu horizontally*/
+    padding:1%;
+    font-weight:bold;
+}
+
+/*css for health tips section*/
+
+.health-tips{
+    padding: 3% 0;
+
+}
+.text{
+    text-align: center;
+    color:#145DA0;
+
+}
+
+.box3{
+  
+    width:30%;
+    margin: 0 1%;
+    float:left; /*to get the images  horizontally*/   
+    
+    
+}
+
+.box2{
+  
+    width:29%;
+    margin: 1% 1%;
+    float:left; /*to get the images  horizontally*/ 
+    background-color: #ccc; 
+    padding:1%;
+   
+    
+}
+/*meals section*/
+
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position:absolute;
+    bottom:40px; /*moving the "breakfast" up*/
+    left:30%; /*moving the "breakfast" little toward middle*/
+}
+.white{
+    color:white;
+}
+
+.position{
+    position: relative;
+}
+.curve{
+    border-radius: 15px;
+}
+ 
+/* form button*/
+.b{
+		
+    background-color: #145DA0;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .b:hover{
+    color: #36EEE0;
+ }
+
+
+
+ /*References : 
+    https://youtu.be/ZBgTzx46B8s
+    https://www.w3schools.com/css/default.asp
+ */
+

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Supplements</title>
+<link href="csstest.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link href="footerStyle.css" rel="stylesheet">
+<script src="jstest.js" ></script>
+</head>
+<body>
+<!--logo-->
+<div style="background-color:black;margin:0;">
+
+  <img src="image/2.png"style="margin-left:30%;">
+
+</div>
+
+<!--nav bar-->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='Supplement.html';">Home</button>
+    <div class="dropdown-content">
+      <a href="../Amandi/homepage.php #about-us">About Us</a>
+      <a href="../Amandi/homepage.php #instructor-section">Instructors</a>
+    </div>
+   </div>
+   
+   <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='Supplement.html';">Programs</button>
+    <div class="dropdown-content">
+      <a href="../Rukaiya/Programs.html">Online Programs</a>
+      <a href="../Rukaiya/Offline Classes.html">Offline Programs</a>
+    </div>
+   </div>
+   
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='Supplement.html';">Health Tips</button>
+    <div class="dropdown-content">
+      <a href="../Hirunima/new.html">Health & Meals</a>
+      <a href="../Hirunima/form.html">Customized </a>
+    </div>
+   </div>
+   
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Clothing and Accessories</button>
+    <div class="dropdown-content">
+      <a href="clothing.html #section1">New Arrivals</a>
+      <a href="clothing.html #section2">Men's Collection</a>
+      <a href="clothing.html #section3">Woman's Collection</a>
+	  
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='Supplement.html';">Supplement</button>
+    <div class="dropdown-content">
+      <a href="#section1">Protien</a>
+      <a href="#section2">Pre Workout</a>
+    </div>
+   </div>
+   
+
+   
+   <div class="cart" >
+     <a href="../Samadi/loginpage.html"><i class="bi bi-person-circle"></i></a>
+   </div>
+   
+  <div class="cart" >
+    <a href="cart.php"><i class="bi bi-cart-fill"></i></a>
+  </div>
+  
+
+</div>
+
+
+<h1>Supplements</h1></center>
+
+<!--top image box-->
+<hr class ="hrline">
+<div class="top-box">
+  <img src="image/cover2.png" class="top-img" rel="top-img">
+  <div class = "top-text">
+     <h2>Check out our wide range <br>of collections</h2>
+	 <div class="dropdown" >
+	     <button class="btn">Explore now</h2>
+         <div class="dropdown-content">
+		  <a href="#section1">Protein</a>
+		  <a href="#section2">Pre Workout</a>
+         </div>
+	 
+	 </div>
+  </div>
+</div>
+
+<!--Protein section-->
+
+<div  id="section1">
+<h1>Protein</h1>
+ <div class="flex-box-container">
+    <div class="flex-box">
+
+		<div class="item">
+			<img src="image/img75.jpg" class="pic" rel="Muscle Tech NitroTech Whey Protein">
+			<div class="item-details">
+			  <h4>Muscle Tech NitroTech <br>Whey Protein</h4>
+			  <ul>
+				<li>Price: $300</li>
+			  </ul>
+			  <div class="item-cart">
+				<form action="add_to_cart.php" method="post">
+				  <input type="hidden" name="pname" value="Muscle Tech NitroTech Whey Protein">
+				  <input type="hidden" name="price" value="300">
+				  <label for="quantity">Quantity:</label>
+				  <input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+				  <button type="submit" class="add-cart">Add to Cart</button>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		  
+			
+			<div class="item">
+				<img src="image/img69.jpg" class="pic" rel="Bpi sports- Whet HD">
+				<div class="item-details">
+					<h4>Bpi sports- Whet HD</h4>
+					<ul>
+					<li>price : 42$</li>
+					</ul>
+					<div class="item-cart">
+						<form action="add_to_cart.php" method="post">
+							<input type="hidden" name="pname" value="Bpi sports- Whet HD">
+							<input type="hidden" name="price" value="42">
+							<label for="quantity">Quantity:</label>
+							<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+							<button type="submit" class="add-cart">Add to Cart</button>
+						  </form>
+
+					</div>
+				</div>
+			</div>
+			
+			<div class="item">
+				<img src="image/img67.jpg" class="pic" rel="Ps-Whey Concentrate 4lbs">
+				<div class="item-details">
+					<h4>Ps-Whey Concentrate 4lbs</h4>
+					<ul>
+					<li>price : 44$</li>
+					</ul>
+					<div class="item-cart">
+						<form action="add_to_cart.php" method="post">
+							<input type="hidden" name="pname" value="Ps-Whey Concentrate 4lbs">
+							<input type="hidden" name="price" value="44">
+							<label for="quantity">Quantity:</label>
+							<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+							<button type="submit" class="add-cart">Add to Cart</button>
+						  </form>
+
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="item">
+				<img src="image/img70.jpg" class="pic" rel="ProScience 100% Whey Protein Isolate 5lbs">
+				<div class="item-details">
+					<h4>ProScience 100% Whey Protein Isolate 5lbs</h4>
+					<ul>
+					<li>price : 45$</li>
+					</ul>
+					<div class="item-cart">
+						<form action="add_to_cart.php" method="post">
+							<input type="hidden" name="pname" value="ProScience 100% Whey Protein Isolate 5lbs">
+							<input type="hidden" name="price" value="45">
+							<label for="quantity">Quantity:</label>
+							<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+							<button type="submit" class="add-cart">Add to Cart</button>
+						  </form>
+
+					</div>
+				</div>
+			</div>
+    </div>
+	
+    <div class="flex-box">	
+		<div class="item">
+			<img src="image/img71.png" class="pic" rel="Hyperstrength Hypergain, 12lbs">
+			<div class="item-details">
+				<h4>Hyperstrength Hypergain,<br> 12lbs</h4>
+				<ul>
+				<li>price : 45$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Hyperstrength Hypergain,12lbs">
+						<input type="hidden" name="price" value="45">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img72.jpg" class="pic" rel="MuscleTech Mass Tech Extreme 2000 12lbs">
+			<div class="item-details">
+				<h4>MuscleTech Mass Tech<br> Extreme 2000 12lbs</h4>
+				<ul>
+				<li>price : 68$<li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="MuscleTech Mass Tech Extreme 2000 12lbs">
+						<input type="hidden" name="price" value="68">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img73.jpg" class="pic" rel="Levro Whey Supreme 2kg">
+			<div class="item-details">
+				<h4>Levro Whey Supreme 2kg</h4>
+				<ul>
+				<li>price : 35$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Levro Whey Supreme 2kg">
+						<input type="hidden" name="price" value="35">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="item">
+			<img src="image/img74.jpg" class="pic" rel="Kevin Levrone Gold Lean Mass, 3Kg">
+			<div class="item-details">
+				<h4>Kevin Levrone Gold <br>Lean Mass, 3Kg</h4>
+				<ul>
+				<li>price : 32$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Kevin Levrone Gold Lean Mass, 3Kg">
+						<input type="hidden" name="price" value="32">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="flex-box">
+		
+		<div class="item">
+			<img src="image/img79.jpg" class="pic" rel="FA Gold Whey Protein Isolate 2 kg">
+			<div class="item-details">
+				<h4>FA Gold Whey Protein Isolate 2 kg</h4>
+				<ul>
+				<li>price : 48$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="FA Gold Whey Protein Isolate 2 kg">
+						<input type="hidden" name="price" value="48">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img76.jpg" class="pic" rel="Kevin Levrone Anabolic Double Impact 2kg">
+			<div class="item-details">
+				<h4>Kevin Levrone Anabolic<br> Double Impact 2kg</h4>
+				<ul>
+				<li>price : 46$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Kevin Levrone Anabolic Double Impact 2kg">
+						<input type="hidden" name="price" value=" 46">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit"class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img77.jpg" class="pic" rel="Redcon1 ISOTOPE Whey Isolate, 5.3lbs">
+			<div class="item-details">
+				<h4>Redcon1 ISOTOPE Whey<br> Isolate, 5.3lbs</h4>
+				<ul>
+				<li>price : 63$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Redcon1 ISOTOPE Whey Isolate, 5.3lbs">
+						<input type="hidden" name="price" value="63">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img78.jpg" class="pic" rel="Rule1 R1 LBS Mass Gainer, 12lbs">
+			<div class="item-details">
+				<h4>Rule1 R1 LBS Mass Gainer, 12lbs</h4>
+				<ul>
+				<li>price :45$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Rule1 R1 LBS Mass Gainer, 12lbs">
+						<input type="hidden" name="price" value="45">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit"class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+	
+    </div>
+	
+    <a class="prev" onClick="showSlide('section3',-1)"><i class="bi bi-arrow-left-circle" style="color:black;"></i></a>
+    <a class="next" onClick="showSlide('section3',1)"><i class="bi bi-arrow-right-circle"style="color:black;"></i></a>
+ </div>
+</div>
+
+<!--Pre Workout section-->
+<div id="section2"  style="background-color:#010419">
+
+<h1 style="color:white">Pre Workout</h1>
+
+
+ <div class="flex-box-container">
+    <div class="flex-box">
+
+		<div class="item">
+			<img src="image/img80.png" class="pic" rel="Total war pre workout">
+			<div class="item-details">
+				<h4>Total war pre workout</h4>
+				<ul>
+				<li>price : 38$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Total war pre workout">
+						<input type="hidden" name="price" value="38">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img81.png" class="pic" rel="Hyde pre workout">
+			<div class="item-details">
+				<h4>Hyde pre workout</h4>
+				<ul>
+				<li>price : 27$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Hyde pre workout">
+						<input type="hidden" name="price" value="27">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img82.jpg" class="pic" rel="C4 original 64 serving">
+			<div class="item-details">
+				<h4>C4 original 64 serving</h4>
+				<ul>
+				<li>price : 44$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="C4 original 64 serving">
+						<input type="hidden" name="price" value="44">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="item">
+			<img src="image/img83.jpg" class="pic" rel="Cobra labs curse 50 serv">
+			<div class="item-details">
+				<h4>Cobra labs curse<br>50 serv </h4>
+				<ul>
+				<li>price : 37$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Cobra labs curse">
+						<input type="hidden" name="price" value="37">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+    </div>
+	
+    <div class="flex-box">	
+		<div class="item">
+			<img src="image/img85.png" class="pic" rel="ABE pre workout">
+			<div class="item-details">
+				<h4>ABE pre workout</h4>
+				<ul>
+				<li>price : 36$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="ABE pre workout">
+						<input type="hidden" name="price" value="36">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img86.jpg" class="pic" rel="FA ice pump shot 500ml">
+			<div class="item-details">
+				<h4>FA ice pump shot 500ml</h4>
+				<ul>
+				<li>price : 9$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="FA ice pump shot 500ml">
+						<input type="hidden" name="price" value="9">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img87.jpg" class="pic" rel="Insane labz psycotic">
+			<div class="item-details">
+				<h4>Insane labz psycotic</h4>
+				<ul>
+				<li>price : 31$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Insane labz psycotic">
+						<input type="hidden" name="price" value="31">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="item">
+			<img src="image/img89.jpg" class="pic" rel="Gat Nitraflex 30 serving">
+			<div class="item-details">
+				<h4>Gat Nitraflex 30 serving</h4>
+				<ul>
+				<li>price : 36$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Gat Nitraflex 30 serving">
+						<input type="hidden" name="price" value="36">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="flex-box">
+		
+		<div class="item">
+			<img src="image/img90.jpg" class="pic" rel="Gold standard pre-workout Advance">
+			<div class="item-details">
+				<h4>Gold standard pre-workout<br> Advance </h4>
+				<ul>
+				<li>price : 47$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Gold standard pre-workout">
+						<input type="hidden" name="price" value="47">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img92.jpg" class="pic" rel="Total War-preworkout">
+			<div class="item-details">
+				<h4>Total War-preworkout</h4>
+				<ul>
+				<li>price : 40$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Total War-preworkout">
+						<input type="hidden" name="price" value="40">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img91.jpg" class="pic" rel="NOW Sports L-Citrulline,">
+			<div class="item-details">
+				<h4>NOW Sports L-Citrulline,</h4>
+				<ul>
+				<li>price : 40$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="NOW Sports L-Citrulline">
+						<input type="hidden" name="price" value="40">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit"class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img94.jpg" class="pic" rel="BSN N.O.-XPLODE 30 Servings">
+			<div class="item-details">
+				<h4>BSN N.O.-XPLODE <br>30 Servings</h4>
+				<ul>
+				<li>price : 64$</li>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="BSN N.O.-XPLODE 30 Servings">
+						<input type="hidden" name="price" value="64">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit"class="add-cart">Add to Cart</button>
+					  </form>
+				</div>
+			</div>
+		</div>
+	
+    </div>
+   <a class="prev" onClick="showSlide('section2',-1)"><i class="bi bi-arrow-left-circle"></i></a>
+   <a class="next" onClick="showSlide('section2',1)"><i class="bi bi-arrow-right-circle"></i></a>
+ </div>
+
+</div>
+
+<!--footer starts here-->
+    <footer class="footer-container" id="contact">
+
+        <br><br>
+
+        <div class="container7">
+            <div class="box8">
+                <h1 class="company-name">FITZONE</h1>
+                <p class="moto">Sweat Now, shine later</p>
+            </div>
+
+            <div class="socialmedia-nav">
+                <h2 class="socials-head">Follow us on our socials</h2>
+                <br>
+                <ul>
+                                           
+                    <li>
+                        <div class="whatsapp-box">
+                            <a href="https://chat.whatsapp.com/HIP4QTVhnRfI8J6kNImjiS" target="_blank">
+                                <img src="image/whatsapp.png" rel="whatsapp icon" class="sm">
+                            </a>
+
+                            <!--div class="qr-popup">
+                                <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                                    Scan Me
+                                </p>
+                                <img src="images/qr.jpeg" rel="QR CODE" class="qr">
+                            </div-->
+                        </div> 
+                        
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/facebook.png" rel="fb icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/instagram.png" rel="ig icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/twitter.png" rel="linkedin icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/youtube.png" rel="yt icon" class="sm">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+                    
+            
+        </div>
+
+        <br><br>
+        <div class="container8">
+            <div class="box9">
+                
+                <h2>Company</h2>
+                <br>
+                <ul>
+                    <li><a href="../Amandi/homepage.php #about-us">About Us</a></li>
+                    <li><a href="../Amandi/homepage.php #contact">Contact Us</a></li>
+                    <li><a href="../Amandi/homepage.php #instructor-section">Instructors</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="box9">
+                <h2>Admissions</h2>
+                <br>
+                <ul>
+                    <li><a href="../Amandi/register.php">Instructions</a></li>
+                    <br><br>
+                    <li><a href="../Amandi/register.php" class="footer-register">Register Now</a></li>
+                    <br> 
+                </ul>
+            </div>
+
+            <div class="box9">
+                <h2>Related</h2>
+                <br>
+                <ul>
+                    <li><a href="../Hirunima/new.html">Health Tips</a></li>
+                    <li><a href="../Hirunima/form.html">Dietary Plans</a></li>
+                    <li><a href="#">Fitness Stories</a></li>
+                    <br>
+                    <br>
+                        
+                </ul>
+                
+            </div>
+
+            <div class="box9">
+                
+                <h2>Contact</h2>
+                <br>
+                <ul>
+                       
+                    <li>Contact Us(9:AM to 8:PM IST)</li>
+
+                        <ul class="pno">
+                            <li>✆ +94 33 282 2387</li>
+                            <li>✆ +94 77 282 9744</li>
+                            <li>✆ +94 70 282 9745</li>
+                        </ul>
+                    <li>Email : <u>fitzone@gmail.com</u></li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <div class="container8">
+            <div class="box9">
+                <h2 class="affiliates-txt">Our Affiliates : 
+                <img src="image/foa1.png" rel="foa logo" class="partners-logo">
+                <img src="image/carnage.png" rel="carnage logo" style=" width:150px; height:auto; transform: translateY(20%);" class="partners-logo">
+                </h2>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div>
+            <hr class="footer-line">
+            <div class="lastline">
+
+                
+
+                <p class="line">
+                    Copyrights 
+                    <a href="../Amandi/homepage.php">&copy;2023 FITZONE online fitness training.</a>
+                    All rights reserved. | Solution by 
+                    <a href="">SLIIT undergraduates</a>
+                    
+                    <p class="last"><a href="#">Terms of Use</a></p>
+                    <p class="last"><a href="..\Amandi\privacyPolicy.html">Privacy Policy</a></p>
+                </p>
+            </div>
+
+            <div><a href="#top" class="fixed-arrow">↑</a></div>
+        </div>
+
+        
+
+        
+    </footer>
+    <!--footer ends here-->
+</body>
+</html>
+
+
+<!--References : 
+	https://www.youtube.com/watch?v=cT_ZYrS3tKc&t=7808s
+	https://www.youtube.com/watch?v=B20Getj_Zk4
+-->

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="pinfocss.css">
+</head>
+<body>
+  <div class="container">
+  <h2>Personal Information</h2>
+  <form id="registrationForm" method="post" action="process.php">
+    <label for="fullname"><b>Full Name:</b></label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email"><b>Email:</b></label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone"><b>Phone Number:</b></label>
+    <input type="text" id="phone" name="phone" required>
+
+    <label for="address"><b>Address:</b></label>
+    <textarea id="address" name="address" required></textarea>
+
+    <label for="gender"><b>Gender:</b></label>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="dob"><b>Date of Birth:</b></label>
+    <input type="date" id="dob" name="dob" required>
+
+    <input type="submit" value="Done">
+    <button type="button" onclick="goBack()">Back</button>
+  </form>
+</div>
+
+  <script src="pinfophp.js"></script>
+</body>
+</html>

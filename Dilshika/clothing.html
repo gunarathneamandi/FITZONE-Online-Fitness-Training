@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Shopping</title>
+<link href="footerStyle.css" rel="stylesheet">
+<link href="csstest.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<script src="jstest.js" ></script>
+<style>
+
+</style>
+</head>
+<body>
+
+<!--logo-->
+<div style="background-color:black;margin:0;">
+  <img src="image/2.png"style="margin-left:30%;">
+</div>
+
+<!--nav bar-->
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Home</button>
+    <div class="dropdown-content">
+      <a href="../Amandi/homepage.php #about-us">About Us</a>
+      <a href="../Amandi/homepage.php #instructor-section">Instructors</a>
+    </div>
+   </div>
+   
+   <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Programs</button>
+    <div class="dropdown-content">
+      <a href="../Rukaiya/Programs.html">Online Programs</a>
+      <a href="../Rukaiya/Offline Classes.html">Offline Programs</a>
+    </div>
+   </div>
+   
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Health Tips</button>
+    <div class="dropdown-content">
+      <a href="../Hirunima/new.html">Health & Meals</a>
+      <a href="../Hirunima/form.html">Customized </a>
+    </div>
+   </div>
+   
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Clothing and Accessories</button>
+    <div class="dropdown-content">
+      <a href="#section1">New Arrivals</a>
+      <a href="#section2">Men's Collection</a>
+      <a href="#section3">Woman's Collection</a>
+	  
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn" onclick="window.location.href='#';">Supplement</button>
+    <div class="dropdown-content">
+      <a href="Supplement.html #section1">Protien</a>
+      <a href="Supplement.html #section2">Pre Workout</a>
+    </div>
+   </div>
+   
+
+   
+   <div class="cart" >
+     <a href="../Samadi/loginpage.html"><i class="bi bi-person-circle"></i></a>
+   </div>
+   
+  <div class="cart" >
+    <a href="cart.php"><i class="bi bi-cart-fill"></i></a>
+  </div>
+  
+</div>
+
+<center><h1>Clothing & Accessories</h1></center>
+
+<!--top picture box-->
+<hr class ="hrline">
+<div class="top-box">
+  <img src="image/img38.png" class="top-img" rel="top-img">
+  <div class = "top-text">
+     <h2>Check out our wide range <br>of collections</h2>
+	 <div class="dropdown" >
+	     <button class="top-btn">Explore now</h2>
+         <div class="dropdown-content">
+		  <a href="#div1">New Arrivals</a>
+		  <a href="#section2">Men's Collection</a>
+		  <a href="#section3">Woman's Collection</a>
+         </div>
+	 
+	 </div>
+  </div>
+</div>	
+
+<!--new arrival section-->
+<div  id="section1"  class="div-section">
+<h1>New Arrivals</h1>
+<div class="shop-container">
+	<div class="shop">
+		<div class="item">
+			<img src="image/img26.jpg" class="pic" rel="Blue long sleeve workout tee">
+			<div class="item-details">
+				<h4>Blue long sleeve workout tee</h4>
+				
+				<p>Price : $10</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Blue long sleeve workout tee">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity"  name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart" >Add to Cart</button>
+						
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img25.jpg" class="pic" rel="Long sleeve tide workout tee">
+			<div class="item-details">
+				<h4>Long sleeve tide workout tee</h4>
+				
+				<p>Price : $25</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Long sleeve tide workout tee">
+						<input type="hidden" name="price" value="25">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart" >Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="item">
+			<img src="image/img33.jpg" class="pic" rel="F.O.A men jogger">
+			<div class="item-details">
+				<h4>F.O.A men jogger</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="F.O.A men jogger">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img58.jpg" class="pic" rel="Yoga Midi Scoop Bra">
+			<div class="item-details">
+				<h4>Yoga Midi Scoop Bra</h4>
+				
+				<p>Price : $14</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Yoga Midi Scoop Bra">
+						<input type="hidden" name="price" value="14">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img6.jpg" class="pic" rel="light-support training bra">
+			<div class="item-details">
+				<h4>light-support training bra</h4>
+				
+				<p>Price : $11</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="light-support training bra">
+						<input type="hidden" name="price" value="11">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="item">
+			<img src="image/img20.jpg" class="pic" rel="Green Knit Active Bra">
+			<div class="item-details">
+				<h4>Green Knit Active Bra</h4>
+				
+				<p>Price : $13</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Green Knit Active Bra">
+						<input type="hidden" name="price" value="13">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img src="image/img32.jpg" class="pic" rel="Long sleeve men workout tee grey">
+			<div class="item-details">
+				<h4>Long sleeve men workout<br>tee grey</h4>
+				
+				<p>Price : $10</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Long sleeve men workout tee grey">
+						<input type="hidden" name="price" value="10">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img src="image/img35.jpg" class="pic" rel="Green tide workout tee with short">
+			<div class="item-details">
+				<h4>Green tide workout tee <br>with short</h4>
+				
+				<p>Price : $15</p>
+				<p>size  :xs/s/m/l</p>
+				<br><br>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Green tide workout tee with short">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name  ="qty" min="1" max="10" style="width:30px;">
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--show as slideshow-->
+<script>
+
+  const items = document.querySelectorAll('.item');
+  const slideWidth = items[0].clientWidth;
+
+  let slideIndex = 0;
+
+  function showSlides() {
+  items.forEach((item, index) => {
+    item.style.transform = `translateX(${slideWidth+120 *(index - slideIndex)}px)`;
+  });
+
+  slideIndex = (slideIndex + 1) % items.length;
+  setTimeout(showSlides, 3000); // change slide every 3 seconds
+}
+
+
+  showSlides();
+</script>
+
+<!--Mens collection-->
+<div id="section2"  style="background-color:#010419">
+		
+ <h1 style="color:white">Men's Collection</h1>
+
+
+ <div class="flex-box-container">
+    <div class="flex-box">
+
+		<div class="item">
+			<img src="image/img27.jpg" class="pic" rel="Carnage black tank">
+			<div class="item-details">
+				<h4>Carnage black tank</h4>
+				
+			   <p>Price : $10</p>
+				<p>size  :xs/s/m/l</p>
+				
+			</div> 
+				<!--div 5-->
+				    <form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Carnage black tank">
+						<input type="hidden" name="price" value="10">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						
+						<button type="submit" class="add-cart">Add to Cart</button>
+					
+					</form>  
+		    
+		</div>
+		
+		
+		<div class="item">
+			<img src="image/img45.jpg" class="pic" rel="F.O.A black oversize t-shirt">
+			<div class="item-details">
+				<h4>F.O.A black oversize t-shirt</h4>
+				<p>Price : $11</p>
+				<p>size  :xs/s/m/l</p>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="F.O.A black oversize t-shirt">
+						<input type="hidden" name="price" value="11">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img25.jpg" class="pic" rel="Long sleeve tide workout tee">
+			<div class="item-details">
+				<h4>Long sleeve tide workout tee</h4>
+				<p>Price : $13</p>
+				<p>size  :xs/s/m/l</p>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Long sleeve tide workout tee">
+						<input type="hidden" name="price" value="13">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="item">
+			<img src="image/img28.jpg" class="pic" rel="Carnage-long sleeve black tee ">
+			<div class="item-details">
+				<h4>Carnage-long sleeve black tee </h4>
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				</ul>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Carnage-long sleeve black tee">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+    </div>
+	
+    <div class="flex-box">
+		<div class="item">
+			<img src="image/img29.jpg" class="pic" rel="Seamless performance tee-gray">
+			<div class="item-details">
+				<h4>Seamless performance tee-gray</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Seamless performance tee-gray">
+						<input type="hidden" name="price" value=" 12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img46.jpg" class="pic" rel="F.O.A tank-blue">
+			<div class="item-details">
+				<h4>F.O.A tank-blue</h4>
+				
+				<p>Price : $9</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="F.O.A tank-blue">
+						<input type="hidden" name="price" value="9">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img40.jpg" class="pic" rel="White strip black jogger">
+			<div class="item-details">
+				<h4>White strip black jogger</h4>
+				
+				<p>Price : $14</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="White strip black jogger">
+						<input type="hidden" name="price" value="14">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="item">
+			<img src="image/img42.jpg" class="pic" rel="Old school white hoodie">
+			<div class="item-details">
+				<h4>Old school white hoodie</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Old school white hoodie">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="flex-box">
+		
+		<div class="item">
+			<img src="image/img47.jpg" class="pic" rel="Premium jogger-gray">
+			<div class="item-details">
+				<h4>Premium jogger-gray</h4>
+				
+				<p>Price : $15</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Premium jogger-gray">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img26.jpg" class="pic" rel="Blue long sleeve workout tee">
+			<div class="item-details">
+				<h4>Blue long sleeve <br>workout tee</h4>
+				
+				<p>Price : $10</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Blue long sleeve workout tee">
+						<input type="hidden" name="price" value="10">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img44.jpg" class="pic" rel="White drop hole tank">
+			<div class="item-details">
+				<h4>White drop hole tank</h4>
+				
+				<p>Price : $10</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="White drop hole tank">
+						<input type="hidden" name="price" value="10">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img43.jpg" class="pic" rel="Black workout tee">
+			<div class="item-details">
+				<h4>Black workout tee</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Black workout tee">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+	
+    </div>
+ <a class="prev" onClick="showSlide('section2',-1)"><i class="bi bi-arrow-left-circle"></i></a>
+ <a class="next" onClick="showSlide('section2',1)"><i class="bi bi-arrow-right-circle"></i></a>
+ </div>
+
+</div>
+
+<!--womens collection-->
+
+<div  id="section3">
+<h1>Women's Collection</h1>
+
+ <div class="flex-box-container">
+    <div class="flex-box">
+
+		<div class="item">
+			<img src="image/img57.jpg" class="pic" rel="Cotton Ladies Tracksuit">
+			<div class="item-details">
+				<h4>Cotton Ladies Tracksuit</h4>
+				<p>Price : $15</p>
+				<p>size  :xs/s/m/l</p>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Cotton Ladies Tracksuit">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="0" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img11.jpg" class="pic" rel="Radiant Bra - Burgundy">
+			<div class="item-details">
+				<h4> Radiant Bra - Burgundy</h4>
+				
+                <p>Price : $15</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Radiant Bra - Burgundy">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img70.webp" class="pic" rel="Carnage Force Crop white">
+			<div class="item-details">
+				<h4>Carnage Force Crop white</h4>
+				<p>Price : $11</p>
+				<p>size  :xs/s/m/l</p>
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Carnage Force Crop white">
+						<input type="hidden" name="price" value="11">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="item">
+			<img src="image/img14.jpg" class="pic" rel="Deep Jade workout kit">
+			<div class="item-details">
+				<h4>Deep Jade workout kit</h4>
+				
+				<p>Price : $16</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Deep Jade workout kit">
+						<input type="hidden" name="price" value="16">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+    </div>
+	
+    <div class="flex-box">	
+		<div class="item">
+			<img src="image/img20.jpg" class="pic" rel="Dark green sports bra">
+			<div class="item-details">
+				<h4>Dark green sports bra</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Dark green sports bra">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img50.jpg" class="pic" rel="Full Zip Slim Fit Hooded Jacket">
+			<div class="item-details">
+				<h4>Full Zip Slim Fit Hooded <br>Jacket</h4>
+				
+				<p>Price : $12</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Full Zip Slim Fit Hooded Jacket">
+						<input type="hidden" name="price" value="12">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit"class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img60.jpg" class="pic" rel="Training crop Tee Navy blue">
+			<div class="item-details">
+				<h4>Training crop Tee Navy blue</h4>
+				
+				<p>Price : $8</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Training crop Tee Navy blue">
+						<input type="hidden" name="price" value="8">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+			
+		<div class="item">
+			<img src="image/img41.jpg" class="pic" rel="Rust Red Seamless Ultrasuave Set">
+			<div class="item-details">
+				<h4>Rust Red Seamless <br>Ultrasuave Set</h4>
+				
+				<p>Price : 15</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Rust Red Seamless Ultrasuave Set">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="0" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <div class="flex-box">
+		
+		<div class="item">
+			<img src="image/img48.jpg" class="pic" rel="White sports bra">
+			<div class="item-details">
+				<h4>White sports bra</h4>
+				
+				<p>Price : $11</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="White sports bra">
+						<input type="hidden" name="price" value="11">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="0" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img58.jpg" class="pic" rel="Yoga Midi scoop bra">
+			<div class="item-details">
+				<h4>Yoga Midi scoop bra</h4>
+				
+				<p>Price : $14</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Yoga Midi scoop bra">
+						<input type="hidden" name="price" value="14">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img55.jpg" class="pic" rel="Basic Hoodie  sweat- grey">
+			<div class="item-details">
+				<h4>Basic Hoodie  sweat- grey</h4>
+				
+				<p>Price : $14</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Basic Hoodie  sweat- grey">
+						<input type="hidden" name="price" value="14">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="item">
+			<img src="image/img61.jpg" class="pic" rel="Fashion sport workout kit">
+			<div class="item-details">
+				<h4>Fashion sport workout kit</h4>
+				
+				<p>Price : 15</p>
+				<p>size  :xs/s/m/l</p>
+				
+				<div class="item-cart">
+					<form action="add_to_cart.php" method="post">
+						<input type="hidden" name="pname" value="Fashion sport workout kit">
+						<input type="hidden" name="price" value="15">
+						<label for="quantity">Quantity:</label>
+						<input type="number" id="quantity" name="qty" min="1" max="10" style="width:30px;">
+						<br><br>
+						<button type="submit" class="add-cart">Add to Cart</button>
+					  </form>
+
+
+				</div>
+			</div>
+		</div>
+	
+    </div>
+    <a class="prev" onClick="showSlide('section3',-1)"><i class="bi bi-arrow-left-circle" style="color:black;"></i></a>
+    <a class="next" onClick="showSlide('section3',1)"><i class="bi bi-arrow-right-circle"style="color:black;"></i></a>
+ </div>
+</div>
+
+
+
+
+<!--footer starts here-->
+    <footer class="footer-container" id="contact">
+
+        <br><br>
+
+        <div class="container7">
+            <div class="box8">
+                <h1 class="company-name">FITZONE</h1>
+                <p class="moto">Sweat Now, shine later</p>
+            </div>
+
+            <div class="socialmedia-nav">
+                <h2 class="socials-head">Follow us on our socials</h2>
+                <br>
+                <ul>
+                                           
+                    <li>
+                        <div class="whatsapp-box">
+                            <a href="https://chat.whatsapp.com/HIP4QTVhnRfI8J6kNImjiS" target="_blank">
+                                <img src="image/whatsapp.png" rel="whatsapp icon" class="sm">
+                            </a>
+
+                            <!--div class="qr-popup">
+                                <p style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                                    Scan Me
+                                </p>
+                                <img src="images/qr.jpeg" rel="QR CODE" class="qr">
+                            </div-->
+                        </div> 
+                        
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/facebook.png" rel="fb icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/instagram.png" rel="ig icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/twitter.png" rel="linkedin icon" class="sm">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="image/youtube.png" rel="yt icon" class="sm">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+                    
+            
+        </div>
+
+        <br><br>
+        <div class="container8">
+            <div class="box9">
+                
+                <h2>Company</h2>
+                <br>
+                <ul>
+                    <li><a href="../Amandi/homepage.php #about-us">About Us</a></li>
+                    <li><a href="../Amandi/homepage.php #contact">Contact Us</a></li>
+                    <li><a href="../Amandi/homepage.php #instructor-section">Instructors</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="box9">
+                <h2>Admissions</h2>
+                <br>
+                <ul>
+                    <li><a href="../Amandi/register.php">Instructions</a></li>
+                    <br><br>
+                    <li><a href="../Amandi/register.php" class="footer-register">Register Now</a></li>
+                    <br> 
+                </ul>
+            </div>
+
+            <div class="box9">
+                <h2>Related</h2>
+                <br>
+                <ul>
+                    <li><a href="../Hirunima/new.html">Health Tips</a></li>
+                    <li><a href="../Hirunima/form.html">Dietary Plans</a></li>
+                    <li><a href="#">Fitness Stories</a></li>
+                    <br>
+                    <br>
+                        
+                </ul>
+                
+            </div>
+
+            <div class="box9">
+                
+                <h2>Contact</h2>
+                <br>
+                <ul>
+                       
+                    <li>Contact Us(9:AM to 8:PM IST)</li>
+
+                        <ul class="pno">
+                            <li>✆ +94 33 282 2387</li>
+                            <li>✆ +94 77 282 9744</li>
+                            <li>✆ +94 70 282 9745</li>
+                        </ul>
+                    <li>Email : <u>fitzone@gmail.com</u></li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <div class="container8">
+            <div class="box9">
+                <h2 class="affiliates-txt">Our Affiliates : 
+                <img src="image/foa1.png" rel="foa logo" class="partners-logo">
+                <img src="image/carnage.png" rel="carnage logo" style=" width:150px; height:auto; transform: translateY(20%);" class="partners-logo">
+                </h2>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div>
+            <hr class="footer-line">
+            <div class="lastline">
+
+                
+
+                <p class="line">
+                    Copyrights 
+                    <a href="../Amandi/homepage.php">&copy;2023 FITZONE online fitness training.</a>
+                    All rights reserved. | Solution by 
+                    <a href="">SLIIT undergraduates</a>
+                    
+                    <p class="last"><a href="#">Terms of Use</a></p>
+                    <p class="last"><a href="../Amandi/privacyPolicy.html">Privacy Policy</a></p>
+                </p>
+            </div>
+
+            <div><a href="#top" class="fixed-arrow">↑</a></div>
+        </div>
+
+        
+
+        
+    </footer>
+    <!--footer ends here-->
+
+</body>
+</html>
+
+<!--References : 
+	https://www.youtube.com/watch?v=cT_ZYrS3tKc&t=7808s
+	https://www.youtube.com/watch?v=B20Getj_Zk4
+-->
